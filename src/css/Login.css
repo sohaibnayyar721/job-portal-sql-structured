@@ -1,0 +1,17 @@
+.login-form-open {
+    animation: openModal 0.5s ease-in-out; 
+}
+  
+/* .login-form-closed {
+    animation: closedModal 0.5s ease-in-out; 
+} */
+
+@keyframes openModal {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0);   }
+}
+
+/* @keyframes closedModal {
+    100% { transform: translateY(0%); }
+    0% { transform: translateY(-100%);   }
+} */

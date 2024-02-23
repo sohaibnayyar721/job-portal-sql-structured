@@ -1,0 +1,44 @@
+.zoomOut{
+    animation-name: zoomOut ;
+    animation-duration: 0.8s;
+}
+@keyframes zoomOut{
+    from{
+        opacity: 0.1;
+        width: 40%;
+    }
+    to{  
+        width:80%;
+    }
+}
+
+.scrollLeftToRight{
+    animation-name: scrollLeftToRight ;
+    animation-duration: 0.8s;
+}
+@keyframes scrollLeftToRight{
+    from{
+        opacity: 0.1;
+        margin-left: 10%;
+    }
+    to{
+        
+        margin-right:0%;
+    }
+}
+
+.scrollUp{
+    animation-name: fadeDown ;
+    animation-duration: 0.8s;
+}
+@keyframes fadeDown{
+    from{
+        opacity: 0.1;
+        margin-top: 10%;
+    }
+    to{
+        margin-bottom:0%
+    }
+}
+
+
